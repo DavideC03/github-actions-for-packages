@@ -8,7 +8,7 @@ jobs:
     - name: Publish to Registry
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
-        name: DavideC03/github-actions-for-packages
+        name: DavideC03/github-actions-for-packages/test
         username: DavideC03
         password: ${{ secrets.GITHUB_TOKEN }}
         registry: docker.pkg.github.com
