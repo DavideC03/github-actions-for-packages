@@ -11,3 +11,4 @@ jobs:
         name: DavideC03/github-actions-for-packages
         username: DavideC03
         password: ${{ secrets.GITHUB_TOKEN }}
+        registry: docker.pkg.github.com
